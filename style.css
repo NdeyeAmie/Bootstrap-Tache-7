@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(images/fruits.jpg); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 100%;
+    opacity: 1;
+    background-attachment: fixed; 
+    overflow-x: hidden;
+}
+
+.rouge {
+ font-size: 25px;
+ line-height: 45px;
+ font-weight: 700;
+ color: #BD1111;   
+}
+
+.text {
+    color: #FFF;
+    /* padding: 30px; */
+    font-size: 76px;
+    font-weight: 300;
+    font-family: Montserrat;
+   line-height: 92.64px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background: #490909;
+    height: 100px;
+    margin-top: 30px;
+}
+li{
+    list-style: none;
+    
+}
+li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Montserrat;
+   line-height: 21.94px;
+   color: #FFFFFF;
+}
+li a:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.work{
+    color: #938676;
+    font-size: 32px;
+    font-weight: 250;
+    font-family: Montserrat;
+   line-height: 39.01px;
+  letter-spacing: 4px;
+}
+.work-store {
+    color: #938676;
+    font-size: 32px;
+    font-weight: 250;
+    font-family: Montserrat;
+   line-height: 39.01px;
+  letter-spacing: 4px;
+}
+.fond{
+    background-color: #f6e1c5;
+    max-width: 40% !important;
+    height: 300px;
+    margin: auto;
+    border-radius: 8px;
+}
+.gauche{
+    position: relative;
+    left: 10%;
+    top: 13rem;
+
+}
+.para{
+    letter-spacing: 3px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Montserrat;
+   line-height: 17.07px;
+   margin-top: 3rem;
+}
+.text-dark {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Montserrat;
+   line-height: 19.05px;
+  letter-spacing: 3px;
+  color: #000000;
+}
+.btn{
+    background-color: #7b261a;
+    color: #fff;
+    padding: 10px;
+    width: 30%;
+    position: relative;
+    top: 40px;
+    z-index: 1;
+}
+
+.imge-index {
+    margin-top: 8rem;
+    z-index: -1;
+}
+
+.back-tansparent{
+    margin-top: 7rem;
+    background: #490909;
+    opacity: 0.9;
+    width: 100%;                          
+    height: 400px;
+}
+.deux{
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 6px;
+    width: 45%;
+    margin: auto;
+   position: relative;
+   top: 7rem;
+}
+
+.fonddd{
+    background-color: #f6e1c5;
+    width: 100%;
+    margin: auto;
+    padding: 50px;
+    border-radius: 8px;
+    margin-top: rem;
+}
+
+.back-about {
+    background-color: #f6e1c5;
+    max-width: 50%;
+    height: 250px;
+    position: relative;
+    top: -13rem;
+    left: 32rem;
+}
+.about-fond {
+    margin-top: 4rem;
+    margin: 30px;
+}
+.img-about {
+    margin-top: 6rem;
+}
+.text-about {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Montserrat;
+   line-height: 21.94px;
+}
+
+.im {
+    width: 60%;
+    height: 450px;
+    position: relative;
+    left: 18rem;
+}
+.img-product {
+    margin-top: 14rem;
+}
+.img-productt {
+    margin-top: 20rem;
+}
+.img-producttt {
+    margin-top: 20rem;
+}
+.product {
+    position: relative;
+}
+.product-back {
+    background-color: #f6e1c5;
+    width: 25%;
+    height: 100px;
+    position: absolute;
+    top: -50rem;
+    left: 70rem;
+}
+.product-back-letf{
+        background-color: #f6e1c5;
+        width: 25%;
+        height: 100px;
+        position: absolute;
+        top: -50rem;
+        left: 0rem;
+}
+.product-bac {
+    background-color: #f6e1c5;
+    width: 35%;
+    height: 150px;
+    position: absolute;
+    top: -7rem;
+    left: 0rem;
+}
+.product-bac-left {
+    background-color: #f6e1c5;
+    width: 35%;
+    height: 150px;
+    position: absolute;
+    top: -7rem;
+    left: 70rem;
+}
+#text-right {
+    padding: 35px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Montserrat;
+    line-height: 21.94px; 
+}
+.product-h3 {
+    font-size: 20px;
+    font-weight: 250;
+    font-family: Montserrat;
+   line-height: 43.88px; 
+   color: #938676; 
+   max-width: 500px;
+   margin-bottom: -4rem !important;
+   margin: 20px;
+}
+#text-p {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Montserrat;
+   /* line-height: 21.94px;  */
+   color: #000000; 
+   /* margin-bottom: -3rem; */
+   max-width: 250px;
+   margin: 20px;   
+}
+.cont {
+    margin: 2rem; 
+}
+/* -------store */
+.back-order-transparent {
+    margin-top: 7rem;
+    background: #490909;
+    opacity: 0.9;
+    width: 100%;                          
+    height: 700px;   
+}
+.deux-store {
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 6px;
+    width: 40%;
+    margin: auto;
+   position: relative;
+   top: 7rem; 
+}
+.fond-store {
+    background-color: #F6E1C5;
+    width: 100%;
+    height: 550px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 8px;
+    margin-top: rem;  
+}
+.stor-text {
+    margin-top: -2rem;
+}
+.work-store {
+    color: #938676;
+    font-size: 28px;
+    font-weight: 300;
+    font-family: Montserrat;
+   /* line-height: 58.51px; */
+   margin-top: -1rem;
+  /* letter-spacing: 4px; */
+}
+.hr{
+    border-bottom: 1px solid#CFAFAD;
+}
+.fondd {
+    background-color: #F6E1C5;
+    max-width: 80%;
+    height: 350px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 8px; 
+    position: relative; 
+    top: -10rem;
+}
+.cont {
+    margin-top: 8rem;
+}
+.text-row {
+    margin-top: 10px;
+}
+.tex{
+    margin-top: 4rem;
+    font-weight: 400; 
+    font-size: 16px;
+    line-height: 19.5px;
+    font-family: Montserrat;
+    letter-spacing: 4px;
+}
+footer{
+    background-color: #311919;
+    color: #FFF;
+    padding: 30px;
+}
+.footer-product {
+    margin-top: 13rem;
+}
+@media screen and (max-width:375px) {
+    body{
+        margin: 0;
+    }
+    .fonddd , .une , .deux , .fondd{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+   
+    
+}
+@media screen and (max-width:515px) {
+    body{
+        margin: 0;
+    }
+    .fonddd , .une , .deux , .fondd{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    body{
+        margin: 0;
+    }
+    .fonddd , .une , .deux , .fondd{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .fond{
+        background-color: #f6e1c5;
+        max-width: 80% !important;
+    }
+    .gauche{
+        position: relative;
+        left: 0%;
+        top: 10rem;
+    }
+    
+    .deux{
+       
+        padding: 6px;
+        width: 80%;
+        margin: auto;
+    position: relative;
+    top: 7rem;
+    }
+    .fonddd{
+        width: 100%;
+        margin: auto;
+        padding: 30px;
+        border-radius: 8px;
+        margin-top: rem;
+    }
+
+    .imm {
+        width: 100%;
+        height: 200px;
+    }
+    .back-about {
+        max-width: 80%;
+        height: 300px;
+        position: relative;
+        top: -13rem;
+        left: 4rem;
+    }
+    .text-about {
+        font-size: 14px;
+       line-height: 18.94px;
+    }
+    .work{
+        font-size: 30px;
+       line-height: 25.01px;
+    } 
+    .display{
+        font-size: 25px;
+    }
+    #text-a {
+        padding-top: 2rem !important;
+    }
+    .back-order-transparent {                       
+        height: 800px;   
+    }
+    .deux-store {
+        padding: 6px;
+        width: 100%;
+       top: 7rem; 
+    }
+    .fond-store {
+        width: 100%;
+        height: 700px; 
+    }
+    .text-row {
+        margin-top: 0px;
+    }
+    .fondd {
+        /* background-color: #F6E1C5; */
+        max-width: 500%;
+        height: 350px;
+        margin: auto;
+        padding: 50px;
+        border-radius: 8px; 
+        position: relative; 
+        top: -10rem;
+    }
+    .tex{
+    margin-top: -1px;
+    font-size: 12px;
+    line-height: 14.5px;
+    letter-spacing: 2px;
+    }
+#imm{
+    width: 100%;
+    height: 300px;
+}
+/* ----------product------------- */
+.product {
+    display: none;
+}
+.im {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    left: 18rem;
+    margin-left: -18rem;
+}
+.img-product {
+    margin-top: 4rem;
+  
+}
+.img-productt {
+    margin-top: 4rem;
+}
+.img-producttt {
+    margin-top: 4rem;
+}
+}
